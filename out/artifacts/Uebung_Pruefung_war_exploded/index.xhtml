@@ -8,20 +8,20 @@
 <h:head></h:head>
    <h:body>
       <f:view>
-         <p:dataTable var="customer" value="#{CustomerView.customers.customer}">
+         <p:dataTable var="customer" value="#{CustomerView.customers.customer}" id="customerTable">
             <p:column headerText="Id">
                <h:outputText value="#{customer.id}"/>
             </p:column>
 
             <p:column headerText="FirstName">
                <h:inputText id="firstName" value="#{customer.firstName}">
-                  <p:ajax update="firstName"/>
+                  <p:ajax event="keyup"/>
                </h:inputText>
             </p:column>
 
             <p:column headerText="LastName">
                <h:inputText id="lastName" value="#{customer.lastName}">
-                  <p:ajax update="lastName" />
+                  <p:ajax event="keyup"/>
                </h:inputText>
             </p:column>
 
@@ -30,6 +30,14 @@
                        value = "PowerRecords">
                   <f:param name="customerId" value="#{customer.id-1}"/>
                </h:link>
+            </p:column>
+            
+            <p:column headerText="Delete">
+               <h:form>
+               <h:commandButton includeViewParams="true" update="customerTable"
+                       value = "Delete" action="#{CustomerView.deleteCustomer(customer.id-1)}">
+               </h:commandButton>
+               </h:form>
             </p:column>
          </p:dataTable>
          <br/>

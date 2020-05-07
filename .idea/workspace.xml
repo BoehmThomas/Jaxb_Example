@@ -6,7 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a25df22b-580f-4b25-9601-d40f1d54fdaa" name="Default Changelist" comment="" />
+    <list default="true" id="a25df22b-580f-4b25-9601-d40f1d54fdaa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Uebung_Pruefung_war_exploded/WEB-INF/classes/controller/CustomerView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Uebung_Pruefung_war_exploded/WEB-INF/classes/controller/CustomerView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Uebung_Pruefung_war_exploded/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Uebung_Pruefung_war_exploded/index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Uebung_Pruefung/META-INF/Uebung_Pruefung.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Uebung_Pruefung/controller/CustomerView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Uebung_Pruefung/controller/CustomerView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/CustomerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/CustomerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.xhtml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +31,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -32,9 +44,10 @@
   <component name="ProjectId" id="1bXJ4dYjtKjEp1X2obsLgNnYb83" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="XHTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -149,10 +162,22 @@
       <updated>1588772314364</updated>
       <workItem from="1588772324272" duration="17425000" />
       <workItem from="1588843741106" duration="729000" />
+      <workItem from="1588844848346" duration="1191000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

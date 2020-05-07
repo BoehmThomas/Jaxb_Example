@@ -23,6 +23,12 @@ public class CustomerView implements Serializable {
 
     }
 
+    public void deleteCustomer(int customerid) {
+        System.out.println(customerid);
+        customers.getCustomer().remove(customerid);
+
+    }
+
     public CustomerList getCustomers() {
         return customers;
     }
